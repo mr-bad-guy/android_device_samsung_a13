@@ -27,7 +27,7 @@ DEVICE_PATH := device/samsung/a13
 TARGET_OTA_ASSERT_DEVICE := a13
 
 ## Kernel
-TARGET_KERNEL_CONFIG := exynos850-a13xx_defconfig
+TARGET_KERNEL_CONFIG := exynos850-a13nsxx_defconfig
 
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
